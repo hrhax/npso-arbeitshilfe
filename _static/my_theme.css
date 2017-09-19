@@ -24,83 +24,121 @@
 
 
 /* Colors and text decoration.
- For example, :black:`text in black` or :blink:`text blinking` in rST. */
-
-table.typ_grundnutzng tr:nth-child(2,4,5,6,7,9,10) {
-	background-color: blue;
-} 
-
-table.grundnutzung tr:nth-child(2,4,5,6,9) {
-	background-color: orange;
-} 
-
-table.grundnutzung_pos tr:nth-child(2,6) {
-	background-color: orange;
+ For example, :black:`text in black` or :blink:`text blinking` in rST. 2,4,5,6,7,9,10 #FFBC59*/
+ 
+.typgrundnutzung tr:nth-child(2),
+.typgrundnutzung tr:nth-child(4),
+.typgrundnutzung tr:nth-child(5),
+.typgrundnutzung tr:nth-child(6),
+.typgrundnutzung tr:nth-child(7),
+.typgrundnutzung tr:nth-child(9),
+.typgrundnutzung tr:nth-child(10){
+	background-color: #FFBC59;
 }
 
-table.dokument tr:nth-child(3,6,9,10,11) {
-	background-color: orange;
+.grundnutzung tr:nth-child(2),
+.grundnutzung tr:nth-child(4),
+.grundnutzung tr:nth-child(5),
+.grundnutzung tr:nth-child(6),
+.grundnutzung tr:nth-child(9){
+	background-color: #FFBC59;
 } 
 
-table.typ_ueberlagernd_flp tr:nth-child(2,4,5,6,7,9,10) {
-	background-color: orange;
+.grundnutzungpos tr:nth-child(2),
+.grundnutzungpos tr:nth-child(6){
+	background-color: #FFBC59;
+}
+
+.dokument tr:nth-child(3),
+.dokument tr:nth-child(6),
+.dokument tr:nth-child(9),
+.dokument tr:nth-child(10),
+.dokument tr:nth-child(11){
+	background-color: #FFBC59;
 } 
 
-table.ueberlagernd_flp tr:nth-child(2,4,5,6,9) {
-	background-color: orange;
+.typueberlagerndflp tr:nth-child(2),
+.typueberlagerndflp tr:nth-child(4),
+.typueberlagerndflp tr:nth-child(5),
+.typueberlagerndflp tr:nth-child(6),
+.typueberlagerndflp tr:nth-child(7),
+.typueberlagerndflp tr:nth-child(9),
+.typueberlagerndflp tr:nth-child(10){
+	background-color: #FFBC59;
 } 
 
-table.ueberlagernd_flp_pos tr:nth-child(2,6) {
-	background-color: orange;
+.ueberlagerndflp tr:nth-child(2),
+.ueberlagerndflp tr:nth-child(4),
+.ueberlagerndflp tr:nth-child(5),
+.ueberlagerndflp tr:nth-child(6),
+.ueberlagerndflp tr:nth-child(9){
+	background-color: #FFBC59;
 } 
 
-table.plandokument tr:nth-child(3,5,8,9,10) {
-	background-color: orange;
+.ueberlagerndflppos tr:nth-child(2),
+.ueberlagerndflppos tr:nth-child(6){
+	background-color: #FFBC59;
 } 
 
-table.typ_erschliessung_flp tr:nth-child(2,4,5,6,7,9,10) {
-	background-color: orange;
+.plandokument tr:nth-child(3),
+.plandokument tr:nth-child(5),
+.plandokument tr:nth-child(8),
+.plandokument tr:nth-child(9),
+.plandokument tr:nth-child(10) {
+	background-color: #FFBC59;
 } 
 
-table.erschliessung_flp tr:nth-child(2,4,5,6,9) {
-	background-color: orange;
+.typerschliessungflp tr:nth-child(2),
+.typerschliessungflp tr:nth-child(4),
+.typerschliessungflp tr:nth-child(5),
+.typerschliessungflp tr:nth-child(6),
+.typerschliessungflp tr:nth-child(7),
+.typerschliessungflp tr:nth-child(9),
+.typerschliessungflp tr:nth-child(10){
+	background-color: #FFBC59;
 } 
 
-table.erschliessung_flp_pos tr:nth-child(2,6) {
-	background-color: orange;
+.erschliessungflp tr:nth-child(2),
+.erschliessungflp tr:nth-child(4),
+.erschliessungflp tr:nth-child(5),
+.erschliessungflp tr:nth-child(6),
+.erschliessungflp tr:nth-child(9){
+	background-color: #FFBC59;
 } 
 
-table.amt tr:nth-child(2) {
-	background-color: orange;
+.erschliessungflppos tr:nth-child(2),
+.erschliessungflppos tr:nth-child(6){
+	background-color: #FFBC59;
 } 
 
-table.datenbestand tr:nth-child(2) {
-	background-color: orange;
+.amt tr:nth-child(2) {
+	background-color: #FFBC59;
 } 
 
-table.vs_perimeter_verfahrensstand tr:nth-child(2,3,4,5,6,7,8,9,10,11,15) {
-	background-color: orange;
+.datenbestand tr:nth-child(2) {
+	background-color: #FFBC59;
 } 
 
-table.vs_perimeter_pos tr:nth-child(2,6) {
-	background-color: orange;
+.vsperimeterverfahrensstand tr:nth-child(2),
+.vsperimeterverfahrensstand tr:nth-child(3),
+.vsperimeterverfahrensstand tr:nth-child(4),
+.vsperimeterverfahrensstand tr:nth-child(5),
+.vsperimeterverfahrensstand tr:nth-child(6),
+.vsperimeterverfahrensstand tr:nth-child(7),
+.vsperimeterverfahrensstand tr:nth-child(8),
+.vsperimeterverfahrensstand tr:nth-child(9),
+.vsperimeterverfahrensstand tr:nth-child(10),
+.vsperimeterverfahrensstand tr:nth-child(11),
+.vsperimeterverfahrensstand tr:nth-child(15){
+	background-color: #FFBC59;
+} 
+
+.vsperimeterpos tr:nth-child(2),
+.vsperimeterpos tr:nth-child(6){
+	background-color: #FFBC59;
 } 
 
  
-
-
-
-
-
-
-
-
-
-
-  
-.table {
-	background-color: white;
-}
  
 .black {
     color: black;
@@ -143,8 +181,8 @@ table.vs_perimeter_pos tr:nth-child(2,6) {
     color: pink;
 }
 
-.orange {
-    color: orange;
+.#FFBC59 {
+    color: #FFBC59;
 }
 
 .yellow {
