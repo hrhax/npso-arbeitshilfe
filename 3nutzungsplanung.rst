@@ -1,5 +1,6 @@
 .. _ref_NP:
 
+
 Datenmodell
 ===========
 Übersicht über das Topic Nutzungsplanung:
