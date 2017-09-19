@@ -1,5 +1,6 @@
 .. _ref_NP:
 
+
 Datenmodell
 ===========
 Übersicht über das Topic Nutzungsplanung:
@@ -26,6 +27,8 @@ Hinweis: Orange markierte Attribute sind Pflicht. D.h. diese Werte müssen immer
 
 ``Klasse Typ_Grundnutzung``
 '''''''''''''''''''''''''''
+
+.. rst-class:: typ_grundnutzung
 
 +--------------------+---------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------+
 | **Bezeichnung**    | **Typ / Werte**                             | **Beschreibung**                                                                                                                                            | **Beispiel**                                                               |
@@ -80,6 +83,8 @@ Ein ``Typ_Grundnutzung`` kann mehrere Grundnutzungsgeometrien haben (siehe :ref:
 
 ``Klasse Grundnutzung``
 '''''''''''''''''''''''
+
+.. rst-class:: grundnutzung
 	
 +-----------------+---------------------------+---------------------------------------------------------------------------+---------------------------------------------------------+
 | **Bezeichnung** | **Typ / Werte**           | **Beschreibung**                                                          | **Beispiel**                                            |
@@ -118,6 +123,8 @@ Nebeneinanderliegende Grundnutzungsgeometrien mit demselben kommunalen Code dür
 ``Klasse Grundnutzung_Pos``
 '''''''''''''''''''''''''''
 
+.. rst-class:: grundnutzung_pos
+
 +-----------------+------------------------------+----------------------------------------------------------------------------------------------+--------------+
 | **Bezeichnung** | **Typ / Werte**              | **Beschreibung**                                                                             | **Beispiel** |
 +-----------------+------------------------------+----------------------------------------------------------------------------------------------+--------------+
@@ -144,6 +151,8 @@ Falls eine Beschriftung erfasst wird, muss diese innerhalb der zugewiesen  Grund
 
 ``Klasse Dokument``
 '''''''''''''''''''
+
+.. rst-class:: dokument
 
 +------------------+---------------------------+-----------------------------------------------------------------------------------------------------------------+-----------------------------------------------+
 | **Bezeichnung**  | **Typ / Wert**            | **Beschreibung**                                                                                                | **Beispiel**                                  |
@@ -240,6 +249,8 @@ Hinweis: Orange markierte Attribute sind Pflicht. D.h. diese Werte müssen immer
 
 ``Klasse Typ_Ueberlagernd_Flaeche`` / ``Klasse Typ_Ueberlagernd_Linie`` / ``KlasseTyp_Ueberlagernd_Punkt``
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+.. rst-class:: typ_ueberlagernd_flp
 	
 +--------------------+---------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------+
 | **Bezeichnung**    | **Typ / Werte**                             | **Beschreibung**                                                                                                                                            | **Beispiel**                                                               |
@@ -275,6 +286,8 @@ Ein ``Typ_Ueberlagernd_Flaeche`` / ``Typ_Ueberlagernd_Linie`` / ``Typ_Ueberlager
 ``Klasse Ueberlagernd_Flaeche`` / ``Klasse Ueberlagernd_Linie`` / ``Klasse Ueberlagernd_Punkt``
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
+.. rst-class:: ueberlagernd_flp
+
 +-----------------+---------------------------+---------------------------------------------------------------------------+---------------------------------------------------------+
 | **Bezeichnung** | **Typ / Werte**           | **Beschreibung**                                                          | **Beispiel**                                            |
 +-----------------+---------------------------+---------------------------------------------------------------------------+---------------------------------------------------------+
@@ -305,6 +318,8 @@ Eine überlagernde Fläche, Linie oder ein überlagernder Punkt ist immer einem 
 
 ``Klasse Ueberlagernd_Flaeche_Pos`` / ``Klasse Ueberlagernd_Linie_Pos`` / ``Klasse Ueberlagernd_Punkt_Pos``
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+.. rst-class:: ueberlagernd_flp_pos
 
 +-----------------+------------------------------+----------------------------------------------------------------------------------------------+--------------+
 | **Bezeichnung** | **Typ / Werte**              | **Beschreibung**                                                                             | **Beispiel** |
@@ -337,6 +352,8 @@ Analog zur :ref:`Klasse Dokument <klasse_dokument_grundnutzung>` der Grundnutzun
 
 ``Klasse Plandokument``
 '''''''''''''''''''''''
+
+.. rst-class:: plandokument
 
 +------------------+---------------------------+-----------------------------------------------------------------------------------------------------------------+-----------------------------------------------+
 | **Bezeichnung**  | **Typ / Wert**            | **Beschreibung**                                                                                                | **Beispiel**                                  |
@@ -415,6 +432,8 @@ Hinweis: Orange markierte Attribute sind Pflicht. D.h. diese Werte müssen immer
 ``Klasse Typ_Erschliessung_Flaecheobjekt`` / ``Klasse Typ_Erschliessung_Linienobjekt`` / ``Klasse Typ_Erschliessung_Punktobjekt``
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
+.. rst-class:: typ_erschliessung_flp
+
 +--------------------+---------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------+
 | **Bezeichnung**    | **Typ / Werte**                             | **Beschreibung**                                                                                                                                            | **Beispiel**                                                               |
 +--------------------+---------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------+
@@ -456,6 +475,8 @@ Ein ``Klasse Erschliessung_Flaecheobjekt`` / ``Klasse Erschliessung_Linienobjekt
 ``Klasse Erschliessung_Flaecheobjekt`` / ``Klasse Erschliessung_Linienobjekt`` / ``Klasse Erschliessung_Punktobjekt``
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
+.. rst-class:: erschliessung_flp
+
 +-----------------+---------------------------+---------------------------------------------------------------------------+---------------------------------------------------------+
 | **Bezeichnung** | **Typ / Werte**           | **Beschreibung**                                                          | **Beispiel**                                            |
 +-----------------+---------------------------+---------------------------------------------------------------------------+---------------------------------------------------------+
@@ -486,6 +507,8 @@ Eine Erschliessungsgeometrie (Fläche, Linie oder Punkt) ist immer einem Typ (``
 
 ``Klasse Erschliessung_Flaecheobjekt_Pos`` / ``Klasse Erschliessung_Flaecheobjekt_Pos`` / ``Klasse Erschliessung_Flaecheobjekt_Pos``
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+.. rst-class:: erschliessung_flp_pos
 
 +-----------------+------------------------------+----------------------------------------------------------------------------------------------+--------------+
 | **Bezeichnung** | **Typ / Werte**              | **Beschreibung**                                                                             | **Beispiel** |
@@ -542,6 +565,8 @@ Hinweis: Orange markierte Attribute sind Pflicht. D.h. diese Werte müssen immer
 ``Klasse Amt``
 ''''''''''''''
 
+.. rst-class:: amt
+
 +-----------------+--------------------------+--------------------------+---------------------+
 | **Bezeichnung** | **Typ / Werte**          | **Beschreibung**         | **Beispiel**        |
 +-----------------+--------------------------+--------------------------+---------------------+
@@ -556,6 +581,8 @@ Diese Klasse enthält Angaben zur zuständigen Stelle resp. zum Planungsbüro, d
 
 ``Klasse Datenbestand``
 '''''''''''''''''''''''
+
+.. rst-class:: datenbestand
 
 +-----------------+---------------------------+-----------------------------------------------------------------------------------+-------------------------------------------------------------------+
 | **Bezeichnung** | **Typ / Werte**           | **Beschreibung**                                                                  | **Beispiel**                                                      |
@@ -593,6 +620,8 @@ Hinweis: Orange markierte Attribute sind Pflicht. D.h. diese Werte müssen immer
 
 ``Klasse VS_Perimeter_Verfahrensstand``
 '''''''''''''''''''''''''''''''''''''''
+
+.. rst-class:: vs_perimeter_verfahrensstand
 	
 +-----------------+------------------------------+--------------------------------------------------------+--------------------------------+
 | **Bezeichnung** | **Typ / Werte**              | **Beschreibung**                                       | **Beispiel**                   |
@@ -630,6 +659,8 @@ Hinweis: Orange markierte Attribute sind Pflicht. D.h. diese Werte müssen immer
 	
 ``Klasse VS_Permimeter_Pos``
 ''''''''''''''''''''''''''''
+
+.. rst-class:: vs_perimeter_pos
 
 +-----------------+------------------------------+----------------------------------------------------------------------------------------------+--------------+
 | **Bezeichnung** | **Typ / Werte**              | **Beschreibung**                                                                             | **Beispiel** |

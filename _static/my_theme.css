@@ -26,10 +26,77 @@
 /* Colors and text decoration.
  For example, :black:`text in black` or :blink:`text blinking` in rST. */
 
-table.myclass tr:nth-child(3) {
-	color: green;
+table.typ_grundnutzng tr:nth-child(2,4,5,6,7,9,10) {
 	background-color: blue;
 } 
+
+table.grundnutzung tr:nth-child(2,4,5,6,9) {
+	background-color: orange;
+} 
+
+table.grundnutzung_pos tr:nth-child(2,6) {
+	background-color: orange;
+}
+
+table.dokument tr:nth-child(3,6,9,10,11) {
+	background-color: orange;
+} 
+
+table.typ_ueberlagernd_flp tr:nth-child(2,4,5,6,7,9,10) {
+	background-color: orange;
+} 
+
+table.ueberlagernd_flp tr:nth-child(2,4,5,6,9) {
+	background-color: orange;
+} 
+
+table.ueberlagernd_flp_pos tr:nth-child(2,6) {
+	background-color: orange;
+} 
+
+table.plandokument tr:nth-child(3,5,8,9,10) {
+	background-color: orange;
+} 
+
+table.typ_erschliessung_flp tr:nth-child(2,4,5,6,7,9,10) {
+	background-color: orange;
+} 
+
+table.erschliessung_flp tr:nth-child(2,4,5,6,9) {
+	background-color: orange;
+} 
+
+table.erschliessung_flp_pos tr:nth-child(2,6) {
+	background-color: orange;
+} 
+
+table.amt tr:nth-child(2) {
+	background-color: orange;
+} 
+
+table.datenbestand tr:nth-child(2) {
+	background-color: orange;
+} 
+
+table.vs_perimeter_verfahrensstand tr:nth-child(2,3,4,5,6,7,8,9,10,11,15) {
+	background-color: orange;
+} 
+
+table.vs_perimeter_pos tr:nth-child(2,6) {
+	background-color: orange;
+} 
+
+ 
+
+
+
+
+
+
+
+
+
+
   
 .table {
 	background-color: white;
