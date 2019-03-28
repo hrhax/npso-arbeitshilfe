@@ -14,6 +14,7 @@ Arbeitshilfe für die Digitalisierung der Nutzungsplanung
    2ablaufdererfassung
    3nutzungsplanung
    11objektkatalog
+   99changelog
    
 .. 12grundnutzung
    13ueberlagernd
@@ -23,11 +24,11 @@ Arbeitshilfe für die Digitalisierung der Nutzungsplanung
    6verfahrensstand	
    xallgemein
    xtoleranz
-
+   99genindex
+   * :ref:`modindex`
 
 Index und Suche
 ===============
 
 * :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
