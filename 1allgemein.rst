@@ -1,45 +1,14 @@
 Allgemein
 =========
+
+.. _ref_ZielundZweck:
+
 Ziel und Zweck der technischen Arbeitshilfe
 -------------------------------------------
 Die technische Arbeitshilfe spezifiziert und erklärt die inhaltlichen und technischen Anforderungen an die digitalen Daten der Nutzungsplanung. Sie richtet sich an Gemeinden und die mit der Erfassung und Nachführung beauftragten Planungs-, Ingenieur- und Vermessungsbüros. Die Arbeitshilfe beschreibt die Projektabläufe der Erfassung der digitalen Nutzungsplanungsdaten.
-   
-.. image:: _static/klassendiagramm_nutzungsplanung.jpg
-   :width: 250px
-   :height: 250px
-   :target: 11objektkatalog.html#ref-wald
- 
-.. include:: .style.rst 
-
-This is :red:`red !` And :blue:`this part is blue`.
-
-:table: `hintergrundfarbe`
-
-.. rst-class:: myclass
-
-== == ==
-a  b  c
-1  2  3
-11 22 33
-xx yy zz
-== == ==
-
-   
-+--------------------------------------------------------------------------------------------------------+---------+
-|                                                                                                        |         |
-| .. raw:: html                                                                                          |         |
-|                                                                                                        |         |
-|    <class="background-color:pink">Table cell</class>                                                   |         |
-|                                                                                                        |         |
-+--------------------------------------------------------------------------------------------------------+---------+
-| :blue: `testzelle`                                                                                     |         |
-| .. raw:: html                                                                                          |         |
-|    <td style="background-color:red;">Table cell</td>                                                   |         |
-|                                                                                                        |         |
-|                                                                                                        |         |
-+--------------------------------------------------------------------------------------------------------+---------+
 
 Die rechtsgültigen Nutzungsplanungsdaten können im Rahmen der Ortsplanungsrevision oder ausserhalb davon digital erfasst werden. Die vorgängige Erfassung der digitalen Nutzungsplanungsdaten ist auch ausserhalb der Ortsplanung eine sinnvolle Investition, bietet sie doch eine gute Grundlage für die kommende Ortsplanungsrevision.
+
 
 .. index:: Ortsplanungsrevision
 
@@ -48,13 +17,15 @@ aus dem Jahr 2009 Auskunft.
 
 Weitere Auskünfte erteilt der / die zuständige `Kreisplaner(in) <https://www.so.ch/fileadmin/internet/bjd/bjd-arp/Nutzungsplanung/img/Karte_Kreisplaner.jpg>`_ im Amt für Raumplanung.
 
+
 .. index:: Gesetzliche Grundlagen
+.. _ref_GesetzlicheGrundlagen:
 
 Gesetzliche Grundlagen
 ----------------------
 Sämtliche `gesetzlichen Grundlagen <https://www.so.ch/verwaltung/bau-und-justizdepartement/amt-fuer-raumplanung/nutzungsplanung/ortsplanung/gesetzliche-grundlagen/>`_ sind hier zu finden.
 
-	
+.. _ref_DigitaleNutzungsplanungsdaten:
 	
 Digitale Nutzungsplanungsdaten
 ------------------------------
@@ -66,8 +37,10 @@ Die digital zu erfassenden Daten sollen die Erstellung der Nutzungspläne, die i
 
 Darin enthalten ist die Abgrenzung des Baugebietes vom Wald mittels Waldfeststellung (`Art. 13 Waldgesetz <http://bgs.so.ch/frontend/versions/4244>`_). Die entsprechenden Linien werden im Bauzonenplan dargestellt; die daraus abgeleiteten Waldabstandslinien (`Art. 17 Waldgesetz <http://bgs.so.ch/frontend/versions/4244>`_) werden in der Regel in den Erschliessungsplänen dargestellt.
 
+
 .. index:: Datenmodell, INTERLIS 2.3, Minimales Geodatenmodell (MGDM), ili
-	
+.. _ref_Datenmodell1:
+
 Datenmodell
 -----------
 Auf der Grundlage des Bundesgesetzes über Geoinformation (`GeoIG; SR 510.62 <https://www.admin.ch/opc/de/classified-compilation/20050726/index.html>`_) haben die Bundesbehörden in ihren Zuständigkeitsbereichen technische Vorschriften zur elektronischen Darstellung von Geodaten festzulegen. So hat das Bundesamt für Raumentwicklung (ARE) am 12. Dezember 2011 das Minimale Geodatenmodell für den Bereich Nutzungsplanung festgelegt.
@@ -75,12 +48,15 @@ Um den kantonalen Spezifitäten Rechnung zu tragen, hat der Regierungsrat - basi
 
 Mit dem Datenmodell wird sichergestellt, dass die Datenerfassung unter den Gemeinden harmonisiert ist und die Daten in der kantonalen Geodateninfrastruktur verwaltet und publiziert werden können.
 
-Das kantonale Datenmodell liegt in `INTERLIS 2.3 <https://www.interlis.ch/index_d.htm>`_ vor. Die ILI-Modelldatei ``SO_Nutzungsplanung_20170901`` ist in der Modellablage https://geoweb.so.ch/models/ARP/ zu finden. Das Datenmodell gliedert die Daten in einen Teilbereich Nutzungsplanung (Topic Nutzungsplanung) und einen Teil Erschliessung (Topic Erschliessung).
+Das kantonale Datenmodell liegt in `INTERLIS 2.3 <https://www.interlis.ch/index_d.htm>`_ vor. Die ILI-Modelldatei ``SO_Nutzungsplanung_20171118`` ist in der Modellablage https://geoweb.so.ch/models/ARP/ zu finden. Das Datenmodell gliedert die Daten in einen Teilbereich Nutzungsplanung (Topic Nutzungsplanung) und einen Teil Erschliessung (Topic Erschliessung).
+
 
 .. index:: Zuständigkeiten
+.. _ref_Zuständigkeiten:
 	
 Zuständigkeiten
 ---------------
 Die Ortsplanung ist Aufgabe der Einwohnergemeinde (`§ 9 PBG <http://bgs.so.ch/frontend/versions/4287>`_) . Die Einwohnergemeinde erlässt die Nutzungspläne und die dazugehörigen Vorschriften und verfasst dazu einen Raumplanungsbericht (Erläuterungsbericht zur Planung). Planungsbehörde ist der Gemeinderat. Die Datenhoheit für den überwiegenden Teil der Nutzungsplandaten liegt demzufolge bei den Einwohnergemeinden.
 Der Kanton definiert das Datenmodell und ist die Prüfbehörde für die Nutzungsplanung. Er verwaltet und publiziert die harmonisierten Nutzungsplandaten im kantonalen Geoinformationssystem.
 	
+* :ref:`genindex`
